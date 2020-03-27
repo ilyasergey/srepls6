@@ -1,0 +1,566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+<title>S-REPLS 6</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface"/>
+
+<meta name="description" content="S-REPLS 6" />
+  <meta name="keywords" content="programming languages, theory, workshop" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+</script>
+<!-- FONT  -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'/> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div id="main">
+    <center>
+  <div id="dark_container">
+	  <div id="banner">
+	    <div id="welcome">
+	      <h1>6th South of England Regional Programming Language Seminar</h1>
+	    </div><!--close welcome-->
+	    <div id="welcome_slogan">
+	      <h1>University College London, 25 May 2017</h1>
+	    </div><!--close welcome_slogan-->
+        <div id="slideshow">  
+	<img width="900" src="images/ucl1.jpg" alt="UCL Main Building" /> 
+	    </div><!--close slideshow-->	  
+	  </div><!--close banner-->	
+	  </div><!--close dark_container-->
+	  </center>
+   
+	<div id="site_content">		
+
+<div class="sidebar_container">       
+<div class="sidebar">
+  
+</div><!--close sidebar-->     		
+<div class="sidebar">
+<div class="sidebar_item">
+  <h2>News</h2>
+
+  <h3>17 April 2017</h3>
+
+  <p>The program is announced.</p>
+
+  <h3>14 March 2017</h3>
+
+  <p><a href="http://www.di.ens.fr/~cezarad/">Cezara Dr&#259;goi</a>
+  will give a keynote talk at the seminar.</p>
+
+  <h3>10 March 2017</h3>
+
+  <p>The registration for S-REPLS 6 is now open. Register by
+  indicating your name in the poll: <a
+  href="https://goo.gl/oXqAMA">https://goo.gl/oXqAMA</a>.</p>
+  
+  <h3>January 2017</h3>
+
+  <p>Please, fill the <a
+  href="http://doodle.com/poll/gzwtqqsxk2v2gc5g">poll</a> for a
+  preferred seminar date.</p>
+
+</div><!--close sidebar_item--> 
+</div><!--close sidebar-->
+
+<div class="sidebar">
+<div class="sidebar_item">
+<h2>Contact</h2>
+
+  <p>S-REPLS 6 is organised by <a
+  href="http://pplv.cs.ucl.ac.uk/">Programming Principles, Logic and
+  Verification</a> group.
+
+  Please, contact <a href="http://ilyasergey.net">Ilya Sergey</a> with
+  enquiries and talk proposals.</p>
+
+</div><!--close sidebar_item--> 
+</div><!--close sidebar-->
+</div><!--close sidebar_container-->     	 
+	 
+       <div id="content">
+
+<div class="content_item">
+
+  <br/>
+  
+<p align="justify">Welcome to the 6th South of England Regional
+  Programming Language Seminar.</p>
+
+  <p align="justify">S-REPLS is a regular and informal meeting for those
+based in the South of England with a professional interest—whether it
+be academic or commercial—in the semantics and implementation of
+programming languages.</p>
+
+<p align="justify">The seminar is free of charge and lunch will be provided.</p>
+
+<h1>Date and Location</h1>
+
+<p align="justify">The 6th edition of S-REPLS will take place on <b>May 25, 2017</b>, at University College
+  London.</p>
+
+  <p> The seminar will take place in the <b>G06 Sir Ambrose Fleming
+  Lecture Theatre (ground floor) of Roberts Building, 1-19, Torrington
+  Pl</b>.  You can find <a
+  href="http://www.ucl.ac.uk/maps/roberts-building">here</a> the
+  directions to the campus.  </p>
+		  
+<center><img width="650" src="images/ucl2.jpg"  alt="UCL Roberts Building"/>
+<p>UCL Roberts Building</p>
+</center>
+
+<h1>Registration</h1>
+
+<p align="justify">
+To register to attend S-REPLS 6, please fill out your name and check
+the “Seminar” column on the following Doodle poll:</p>
+
+<p align="justify"><a href="https://doodle.com/poll/p28d8u3mxg4x5afe">https://doodle.com/poll/p28d8u3mxg4x5afe</a></p>
+
+<p align="justify">
+If you plan to attend the pay-your-own-way dinner after the seminar,
+please check the “Dinner” column. If you have any dietary restrictions, please email us.
+</p>
+
+<h1>Schedule</h1>
+
+<!-- Click on titles to read the abstracts. -->
+<!-- <br/><br/> -->
+
+<ul>
+  <li><b>9:00-9:30</b> - <b>Welcome refreshments</b> (G06 Sir Ambrose Fleming LT)</li><br/>
+  <li><b>9:30-10:30</b> - <b>Keynote</b> (G06 Sir Ambrose Fleming LT)
+
+<div class="container">
+   &#9702; <a href="#dragoi" data-toggle="collapse"><b>Partially synchronous programming abstractions for fault-tolerant distributed algorithms</b></a>
+   <br/> 
+     &nbsp;&nbsp;<a href="http://www.di.ens.fr/~cezarad/">Cezara Dr&#259;goi</a>, INRIA/&Eacute;cole Normale Sup&eacute;rieure
+      <div id="dragoi" class="collapse">
+	<br/>
+	<p class="myclass" style="width:620px"
+	align="justify">Fault-tolerant distributed algorithms play an
+	important role in many critical/high-availability
+	applications. These algorithms are notoriously difficult to
+	implement correctly, due to asynchronous communication and the
+	occurrence of faults, such as the network dropping messages or
+	computers crashing.</p>
+
+	<p class="myclass" style="width:620px" align="justify">One
+	fundamental obstacle in having correct fault-tolerant
+	distributed algorithms is the lack of abstractions when
+	reasoning about their behaviors. In this talk we discuss the
+	impact of partially synchronous programming abstractions in
+	increasing the confidence we have in fault-tolerant
+	systems. We will focus on partially synchronous models that
+	view asynchronous faulty systems as synchronous ones with an
+	adversarial environment that simulates asynchrony and faults
+	by dropping messages. This view simplifies the proof arguments
+	making systems amendable to automated verification.  We apply
+	partial synchrony to algorithms that solve agreement problems,
+	such as consensus and state machine replication.</p>
+
+	<p class="myclass" style="width:620px" align="justify">Technically, we
+	take a programming language perspective and define a domain
+	specific language which has a high-level partially synchronous
+	semantics and compiles into efficient asynchronous code.  We
+	validate our technique by defining partially synchronous
+	implementations of algorithms like Paxos, whose verification
+	becomes now automated, and which compile into efficient
+	asynchronous code, that preserves the properties verified
+	under the partially synchronous semantics.  </p>
+
+      </div>
+     </div>
+     </li><br/>
+
+  <li><b>10:30-11:00</b> - <b>Break</b> (G06 Sir Ambrose Fleming LT)</li><br/>     
+     
+  <li><b>11:00-12:30</b> - <b>Regular Talks</b> (G06 Sir Ambrose Fleming LT)
+  <div class="container">
+   &#9702; 11:00-11:30: <a href="#mulligan" data-toggle="collapse"><b>A
+  framework for verifying Conflict-free Replicated Data Types
+   (CRDTs)</b></a>
+   <br/>
+   &nbsp;&nbsp;<a href="http://dominic-mulligan.co.uk/">Dominic
+  Mulligan</a>, University of Cambridge (<a href="./images/mulligan.pdf">Slides</a>)
+      <div id="mulligan" class="collapse">
+	
+	<p class="myclass" style="width:620px" align="justify"><br/>We
+	present a framework for verifying the convergence of
+	Conflict-free Replicated Data Types (CRDTs). Working above an
+	axiomatic model of causal asynchronous networks, we prove an
+	abstract convergence theorem which we claim is the "essence"
+	of why operation-based CRDTs converge.  As corollaries of this
+	abstract convergence theorem, we obtain concrete convergence
+	theorems for specific implementations of CRDTs, such as the
+	Replicable Growable Array (RGA). All proofs are checked in
+	Isabelle/HOL.</p>
+
+        <p>This is joint work with Martin Kleppmann, Victor Gomes, and Alastair
+	Beresford.</p><br/>
+     </div>
+     </div>
+     
+     <div class="container">
+       &#9702; 11:30-12:00: <a href="#Scalas" data-toggle="collapse"><b>Lightweight Session Programming in Scala</b></a>
+       <br/>
+       &nbsp;&nbsp;<a href="https://www.doc.ic.ac.uk/~ascalas/">Alceste Scalas</a>, Imperial College London
+       (<a href="./images/scalas.pdf">Slides</a>)
+     <div id="Scalas" class="collapse">
+
+       <p class="myclass" style="width:620px" align="justify"><br/>Designing, developing and
+       maintaining concurrent applications is an error-prone and
+       time-consuming task; most difficulties arise because compilers
+       are usually unable to check whether the inputs/outputs
+       performed by a program at runtime will adhere to a given
+       protocol specification. To address this problem, we leverage
+       the native features of the Scala programming language, type
+       system and standard library, to introduce (1) a representation
+       of protocols (session types) as Scala types, and (2) a
+       library, called lchannels, with a convenient API for type-safe
+       protocol-based programming, supporting local and distributed
+       communication.  </p><br/>
+
+     </div>
+     </div>
+
+     <div class="container">
+       	&#9702; 12:00-12:30: <a href="#ng" data-toggle="collapse"><b>Behavioural Type-Based Static Verification Framework for Go</b></a>
+       <br/>
+       &nbsp;&nbsp;<a href="https://www.doc.ic.ac.uk/~cn06/">Nicholas Ng</a>, Imperial College London
+       (<a href="./images/ng.pdf">Slides</a>)
+
+     <div id="ng" class="collapse">
+
+       <p class="myclass" style="width:620px" align="justify"><br/>Go is a production-level
+       statically typed programming language whose design features
+       explicit message-passing primitives and lightweight threads,
+       enabling (and encouraging) programmers to develop concurrent
+       systems where components interact through communication more so
+       than by lock-based shared memory concurrency. Go can detect
+       global deadlocks at runtime, but does not provide any
+       compile-time protection against all too common communication
+       mismatches and partial deadlocks.</p>
+
+       <p class="myclass" style="width:620px" align="justify"> In this work we present a
+       static verification framework for liveness and safety in Go
+       programs, able to detect communication errors and deadlocks by
+       model checking. Our toolchain infers from a Go program a
+       faithful representation of its communication patterns as
+       behavioural types, where the types are model checked for
+       liveness and safety.</p>
+
+       <p class="myclass" style="width:620px">This is joint work with Julien Lange, Bernardo
+       Toninho, and Nobuko Yoshida.</p>
+     </div>
+     </div>
+
+
+  </li><br/>
+
+  <li><b>12:30-13:45</b> - <b>Lunch</b> (Roberts 110)</li><br/>
+
+  <li><b>13:45-15:15</b> - <b>Regular Talks</b> (G06 Sir Ambrose Fleming LT)
+
+  <div class="container">
+       	&#9702; 13:45-14:15: <a href="#pearce" data-toggle="collapse">
+    <b>Whiley: a Platform for Research in Verifying Compilers</b></a>
+       <br/>
+       &nbsp;&nbsp;<a href="http://homepages.ecs.vuw.ac.nz/~djp/">David J. Pearce</a>, Victoria University of Wellington
+       (<a href="./images/pearce.pdf">Slides</a>)
+
+  <div id="pearce" class="collapse">
+
+       <p class="myclass" style="width:620px" align="justify"><br/>The Whiley programming
+       language and verifying compiler have been under development
+       since 2009.  The language itself was designed with verification
+       in mind, and certain choices reflect this.  For example, the
+       use of unbound arithmetic and structural typing.  The language
+       also has some other notable features, such as the use of flow
+       typing with union, intersection and negation types.
+       Furthermore, Whiley has recently gained support for reference
+       lifetimes, similar to those found in Rust.  Reference lifetimes
+       open up more possibilities in terms of both verification and
+       efficient implementation.</p>
+
+       <p class="myclass" style="width:620px" align="justify">In this talk, I'll
+       demonstrate the system being used to verify some useful
+       programs.  I'll also examine and reflect on some of the
+       interesting technical challenges faced so far.  For example,
+       the implementation of recursive structural types with unions,
+       intersections and negations turned out to surprisingly
+       involved.  Likewise, the system includes a purpose-built
+       automated theorem prover which has proved (unsurprisingly) to
+       be an interesting challenge.</p><br/>
+
+     </div>
+     </div>
+
+     <div class="container">
+       	&#9702; 14:15-14:45: <a href="#Gollamudi" data-toggle="collapse"><b>Automatic Enforcement of Expressive Security Policies using Enclaves</b></a>
+       <br/>
+       &nbsp;&nbsp;<a href="https://sites.google.com/site/anithagollamudi/">Anitha Gollamudi</a>, Harvard University
+       (<a href="./images/gollamudi.pdf">Slides</a>)
+     <div id="Gollamudi" class="collapse">
+
+       <p class="myclass" style="width:620px" align="justify"><br/>Hardware-based enclave
+       protection mechanisms, such as Intel’s SGX, ARM’s TrustZone,
+       and Apple’s Secure Enclave, can protect code and data from
+       powerful low-level attackers. In this work, we use enclaves to
+       enforce strong application-specific information security
+       policies.</p>
+
+       <p class="myclass" style="width:620px" align="justify">We present IMPE, a novel
+       calculus that captures the essence of SGX-like enclave
+       mechanisms, and show that a security-type system for IMPE can
+       enforce expressive confidentiality policies (including erasure
+       policies and delimited release policies) against powerful
+       low-level attackers, including attackers that can arbitrarily
+       corrupt non-enclave code, and, under some circumstances,
+       corrupt enclave code.</p>
+
+       <p class="myclass" style="width:620px" align="justify">We present a translation
+       from an expressive security-typed calculus (that is not aware
+       of enclaves) to IMPE. The translation automatically places code
+       and data into enclaves to enforce the security policies of the
+       source program.</p><br/>
+
+     </div>
+     </div>
+
+
+     <div class="container">
+      	&#9702; 14:45-15:15: <a href="#chong" data-toggle="collapse"><b>Thinking about Transactional Memory, Axiomatically</b></a>
+       <br/>
+       &nbsp;&nbsp;<a href="https://www.doc.ic.ac.uk/~nyc04/">Nathan
+      	Chong</a>, ARM Cambridge (<a href="https://nchong.github.io/talks/SREPLS-25May2016.pdf">Slides</a>)
+     <div id="chong" class="collapse">
+
+       <p class="myclass" style="width:620px" align="justify"><br/>Modern multiprocessors
+       typically provide memory models that are weaker than sequential
+       consistency, and much work has been done by the programming
+       languages community to formalise and prove theorems about these
+       models for a variety of architectures.</p>
+
+       <p class="myclass" style="width:620px" align="justify">Several modern
+       multiprocessors also provide transactional memory (TM), such as
+       Intel's Haswell and IBM's Power8. Much work has been done to
+       study the semantics of TM in a sequentially-consistent setting,
+       but the precise guarantees TM provides in a weak memory setting
+       have received little attention. In this work, we investigate
+       how the axiomatic approach for modelling weakly-consistent
+       memory can be extended to handle TM, with particular reference
+       to the ARM and Power architectures.</p>
+
+       <p class="myclass" style="width:620px" align="justify">We follow a novel iterative
+       methodology for developing models of TM in a weak memory
+       setting. Given the current iteration of the model and a
+       possible refinement of it, we use a constraint-solver to
+       generate all litmus tests (of a bounded size) that
+       differentiate the two. We then decide whether to accept the
+       refinement by examining these tests, discussing them with
+       microarchitectural engineers, and running them on available
+       hardware.</p>
+
+       <p class="myclass" style="width:620px">This work is a collaboration between Nathan Chong (ARM Cambridge),
+       Tyler Sorensen (Imperial) and John Wickerson (Imperial).</p>
+     </div>
+     </div>
+
+  </li><br/>
+  
+  <li><b>15:15-16:00</b> - <b>Coffee Break</b> (Roberts 110)</li><br/>
+
+  <li><b>16:00-18:00</b> - <b>Regular Talks</b> (G06 Sir Ambrose Fleming LT)
+
+     <div class="container">
+      	&#9702; 16:00-16:30: <a href="#Matteo" data-toggle="collapse"><b> A Categorical Automata Learning Framework (CALF)</b></a>
+       <br/>
+       &nbsp;&nbsp;<a
+      	href="https://matteosammartino.wordpress.com/">Matteo
+      	Sammartino</a>, University College London (<a href="./images/sammartino.pdf">Slides</a>)
+     <div id="Matteo" class="collapse">
+
+       <p class="myclass" style="width:620px" align="justify"><br/>Automata learning is a
+       technique to learn an automaton model of a black-box system
+       from observations. It has successfully been applied in
+       verification, with the automaton type varying depending on the
+       application domain. Adaptations of automata learning algorithms
+       for increasingly complex types of automata have to be developed
+       from scratch because there is no abstract theory offering
+       guidelines. This makes it hard to devise such algorithms, and
+       it obscures their correctness proofs.</p>
+
+       <p class="myclass" style="width:620px" align="justify">In this talk I will present CALF, an abstract framework for
+       studying automata learning algorithms in which specific
+       instances, correctness proofs, and optimizations can be derived
+       without much effort.</p><br/>
+
+     </div>
+     </div>
+
+     <div class="container">
+       	&#9702; 16:30-17:00: <a href="#Huntbach" data-toggle="collapse"><b>Lambda Calculus in Core Aldwych</b></a>
+       <br/>
+       &nbsp;&nbsp;<a href="http://www.eecs.qmul.ac.uk/~mmh/">Matthew Huntbach</a>, Queen Mary University of London 
+(<a href="./images/huntbach.pdf">Slides</a>)
+
+     <div id="Huntbach" class="collapse">
+       <p class="myclass" style="width:620px" align="justify"><br/>Core Aldwych is a simple
+       model for concurrent computation, involving the concept of
+       agents that communicate through shared variables. Each variable
+       will have exactly one agent that can write to it, and its value
+       can never be changed once written, but a value can contain
+       further variables that are written to later. A key aspect is
+       that the reader of a value may become the writer of variables
+       in it. In this paper we show how this model can be used to
+       encode lambda calculus.  Individual function applications can
+       be explicitly encoded as lazy or not, as required. We then show
+       how this encoding can be extended to cover functions that
+       manipulate mutable variables, but with the underlying Core
+       Aldwych implementation still using only immutable
+       variables. The ordering of function applications then becomes
+       an issue, with Core Aldwych able to model either the
+       enforcement of an ordering or the retention of indeterminate
+       ordering, which allows parallel execution.</p>
+       <br/>
+       
+     </div>
+     </div>
+
+     <div class="container">
+       	&#9702; 17:00-17:30: <a href="#owens" data-toggle="collapse"><b>Verifying Unix-style utilities in CakeML</b></a>
+       <br/>
+       &nbsp;&nbsp;<a
+       	href="https://www.cs.kent.ac.uk/people/staff/sao/">Scott
+       	Owens</a>, University of Kent (<a href="./images/owens.pdf">Slides</a>)
+     <div id="owens" class="collapse">
+
+       <p class="myclass" style="width:620px" align="justify"><br/>CakeML is an impure
+       functional programming language aimed at supporting formally
+       verified programs. The CakeML project has several aspects
+       including formal semantics and metatheory, a verified compiler,
+       a mechanised connection between its semantics and higher-order
+       logic (in the HOL4 interactive theorem prover), and an example
+       verified theorem prover written in CakeML and HOL4. It also has
+       respectable performance compared to industrial-strength
+       implementations of ML.</p>
+
+       <p class="myclass" style="width:620px" align="justify">The CakeML project has been
+       running for five years and has achieved its initial goal of
+       demonstrating the feasibility of a practical, mechanically
+       verified compiler from program source text to target machine
+       code. But where should we go from here? In this talk, I will
+       present a nascent project on verifying core UNIX utilities,
+       focussing on sort and grep. These examples are interesting
+       because they interact with the outside world and perform pure
+       computation. I will explain how we combine two different
+       techniques to verify these programs: Arthur Charguéraud's
+       characteristic formulae, and our own proof-producing
+       translation from HOL to CakeML.</p>
+
+       <p class="myclass" style="width:620px">CakeML's web site is <a
+       href="https://cakeml.org">https://cakeml.org</a>, and
+       development is hosted on GitHub at <a
+       href="https://github.com/CakeML/cakeml">https://github.com/CakeML/cakeml</a>.</p>
+       <br/>
+
+     </div>
+     </div>
+
+     <div class="container">
+       	&#9702; 17:30-18:00: <a href="#Hobor" data-toggle="collapse"><b>Mechanized Verification for Graph Algorithms</b></a>
+       <br/>
+       &nbsp;&nbsp;<a href="https://www.comp.nus.edu.sg/~hobor/">Aquinas Hobor</a>, National University of Singapore
+       (<a href="./images/hobor.pdf">Slides</a>)
+     <div id="Hobor" class="collapse">
+
+       <p class="myclass" style="width:620px" align="justify"><br/>We
+       show how to verify graph-manipulating algorithms in a
+       mechanized environment.  We discuss the practical and
+       theoretical challanges, and give ways to overcome them.  We
+       have applied our technique to several algorithms including
+       spanning tree, deep graph copy, and union-find.</p> 
+       
+     </div>
+     </div>
+     
+
+  </li>
+</ul>
+
+<h1>Post-Seminar Activities</h1>
+
+<p align="justify"> After the seminar, we are going to get some drinks
+at <a href="https://goo.gl/maps/SkF1ntvaztD2"><b>The Resting
+Hare</b></a> pub, where we have two big tables booked <b>from
+18:30</b>.  </p>
+
+<p align="justify">Please, take a look at the <a
+href="https://docs.google.com/spreadsheets/d/1oGxv9C9OhN5XdTMK8MT-SYedUkTL2F4kQfo-dujppK0/edit?usp=sharing">list
+of suggested local restaurants</a> for pay-your-own-way dinner
+arrangements. Feel free to edit the Google spreadsheet, adding more
+suggestions and/or managing your group bookings with other seminar
+participants. Indeed, we can have multiple bookings made at the same
+restaurant.</p>
+
+<h1>Sponsorship</h1>
+
+<p align="justify">The costs of organising S-REPLS 6 were partially
+supported by <a href="https://www.arm.com/">ARM</a> and <a href="http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/P009271/1">EPSRC</a>.</p>
+
+<h1>Seminar Series</h1>
+
+<p align="justify">General information about S-REPLS can be found on the following
+page:</p>
+
+<p align="justify"><a href="http://dominic-mulligan.co.uk/?page_id=148">http://dominic-mulligan.co.uk/?page_id=148</a></p>
+
+<p align="justify"><b>Mailing list</b></p>
+
+<p>All S-REPLS related communications are made via the mailing list:
+
+<a
+href="http://www.jiscmail.ac.uk/srepls">http://www.jiscmail.ac.uk/srepls</a>.
+This mailing list has very low traffic. If you have professional
+interests in programming language in the region, we encourage you to
+sign up.</p>
+
+<p align="justify"><b>Organising future meetings</b></p>
+
+<p align="justify">If you would like to organise future meetings at your university or company, please get in touch with the <a href="http://dominic-mulligan.co.uk/?page_id=148">steering committee</a>:</p>
+<ul>
+<li><a href="mailto:dpm36@cam.ac.uk">Dominic Mulligan</a></li>
+<li><a href="mailto:jeremy.yallop@cl.cam.ac.uk">Jeremy Yallop</a></li>
+<li><a href="mailto:ohad.kammar@cs.ox.ac.uk">Ohad Kammar</a></li>
+</ul>
+  
+</div><!--close content_item-->
+</div><!--close content-->   
+</div><!--close site_content-->  
+</div><!--close main-->
+
+<hr>
+<font size="1"> 
+<!-- hhmts start -->Last modified: Mon Jun  5 20:16:03 BST 2017 <!-- hhmts end -->
+</font> 
+  
+</body>
+</html>
